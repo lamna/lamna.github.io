@@ -1,0 +1,219 @@
+#home{
+	background-image: url("images/image2.jpg ");
+}
+
+#wrapper1{
+	background-image:url('blackorchid/blackorchid.png');
+	color:white;
+	font-family:Lucida Bright;
+	border-radius:5px;
+	border:5px solid #CBBB9B;	
+}
+
+h3{
+	text-align:center;	
+	text-transform: uppercase;
+}
+
+h2{
+	text-align:center;
+}
+
+h5{
+	text-align:center;	
+}
+
+h6{
+	text-align:center;
+	color:#663300;
+	margin-right:150px;	
+}
+h4{
+	font-size:150px;
+	text-align:center;
+}
+
+.p{
+	text-align:center;
+}
+
+#logo{
+	color:red;
+	font-family:Goudy Stout;
+	height:50px;
+	margin-bottom:60px;	
+}
+
+.first_letter{
+	color:orange;
+	font-size:55px;
+}
+
+#nav ul li{
+	padding:3px 20px;
+	text-align:center;
+	/*border:2px solid orange;
+	border-radius:5px;
+	box-shadow: 0 0 15px rgba(50,50,50,1); */
+}
+
+#nav ul li a{	
+	color:white;
+	font-family:Lucida Bright;
+	padding:3px 10px;
+	font-size:15px;
+	text-transform: uppercase;
+	/*border-radius:5px;
+	box-shadow: 0 0 15px rgba(50,50,50,1);*/
+}
+#nav ul li  :hover{
+	background-color: orange;
+}
+
+#social ul li{
+	display:inline;
+	list-style:none;
+	padding-right:5px;	
+}
+
+#social img{
+	height:35px;
+	width:35px;
+}
+
+/*.add-border{
+	 border-color:#CBBB9B;
+	 border-width:1px;
+	 border-style:solid;*/
+}
+
+#myCarousel{
+	 border-color:#CBBB9B;
+	 border-width:2px;
+	 border-style:solid;	
+}
+
+#logo_nav{
+	background: linear-gradient(to right, rgba(255,128,0,0), rgba(255,128,0,1));
+	border-bottom:5px solid orange;
+}
+
+#wrapper2{
+	background :orange;
+}
+
+#fish{
+	 margin-top:50px;
+	 margin-left:25px;
+}
+
+#sidebar{	
+	margin-left:30px;
+	margin-top:60px;	
+	background: linear-gradient(to right, rgba(255,128,0,0), rgba(255,128,0,1));
+	color:white;
+	font-family:Lucida Bright;
+	width:300px;
+}
+
+#sidebar p{
+	margin-left:80px;	
+}
+
+#foot2{
+	margin-left:0px;
+	margin-top:30px;
+	color:white;
+}
+
+#foot3{
+	margin-left:80px;
+	margin-top:0px;
+}
+
+.modal-body label{
+	color:black;
+}
+
+.modal-header h2{
+	color:black;
+}
+
+#reg_login{
+	text-align:center;
+}
+#reg_login a{
+	color:white;
+}
+
+#reg_login a:hover{
+	color:#663300;
+}
+
+.dropdown-menu  li a{
+	background-color:#663300;
+}
+
+#invalid_2,#invalid_3,#invalid_4{
+	color:red;
+}
+
+#invalid_1{
+	color:red
+}
+
+.accordian{
+	background-color:orange;
+}
+
+#submit{
+	margin-left:170px;
+}
+
+#form2_submit{
+	margin-left:170px;
+	width:200px;
+}
+
+#reserve{
+	margin-left:-10px;
+}
+
+#footer{
+	background:linear-gradient(to right, rgba(255,128,0,0), rgba(255,128,0,1));
+}
+
+h1{
+	 text-shadow: 2px 2px 4px #000000;
+}
+
+
+
+/*@media screen  (min-width:0px) and (max-width:1000px){
+	#reg_login{
+		width:100%;		
+	}
+} /*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
