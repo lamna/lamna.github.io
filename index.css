@@ -5,10 +5,12 @@
 
 
 #body{
-	background-image: url("images/architect1.jpg ");
-	background-repeat: no-repeat;
+	background-image: url("images/arch3.jpg");
+	
 	font-family:Lucida Bright;
+	
 }
+
 
 #webDevelopment{
 	background-image: url("images/htmlcss.png");
