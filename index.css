@@ -5,16 +5,17 @@
 
 
 #body{
-	background-image: url("images/arch4.jpg");
+	background-image: url("images/lem.png");
 	
 	font-family:Lucida Bright;
+	color:#000000;
 	
 }
 
 
 #webDevelopment{
 	background-image: url("images/htmlcss.png");
-	background-color: #ffffff;
+	/*background-color: #ffffff;*/
     height: 270px;
 }
 
@@ -24,8 +25,10 @@
 }
 
 #nav{
-	background-color:white;
+	/*background-color:white;*/
 }
+
+.quotes {display: none;}
 
 
 ul li{
@@ -33,8 +36,9 @@ ul li{
 }
 
 ul li a{
-	color:black;
+	color:#ffffff;
 }
+h5{color:#ffffff;}
 
 a:hover{
 	color:grey;
