@@ -9,6 +9,14 @@
 	
 	font-family:Lucida Bright;
 	color:#000000;
+	background-attachment: fixed;
+    background-position: 50% 50%;
+    max-width: 100%;
+    position: relative;
+    height: 1000px;
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
 	
 }
 
@@ -38,7 +46,7 @@ ul li{
 ul li a{
 	color:#ffffff;
 }
-h5{color:#ffffff;}
+
 
 a:hover{
 	color:grey;
