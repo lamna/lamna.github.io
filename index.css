@@ -5,7 +5,7 @@
 
 
 #body{
-	background-image: url("images/lem.jpg");
+	background-image: url("images/web-img11.jpg");
 	
 	font-family:Lucida Bright;
 	color:#000000;
@@ -22,9 +22,9 @@
 
 
 #webDevelopment{
-	background-image: url("images/htmlcss.png");
-	/*background-color: #ffffff;*/
-    height: 270px;
+	/*background-image: url("images/htmlcss.png");*/
+	background-color: rgba(0,0,0,.5);
+    height: 1000px;
 }
 
 
@@ -33,7 +33,7 @@
 }
 
 #nav{
-	/*background-color:white;*/
+	    background-color: rgba(0,0,0,.5);
 }
 
 .quotes {display: none;}
@@ -52,3 +52,11 @@ a:hover{
 	color:grey;
 }
 
+.mob-name{display:none;}
+
+@media only screen and (max-width: 767px) {
+.col-md-6.lg-name{display:none!important;}
+.mob-name{display:inline-block;}
+#body{    background-position: initial;}
+
+} 
