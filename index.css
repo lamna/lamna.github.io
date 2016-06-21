@@ -55,8 +55,12 @@ a:hover{
 .mob-name{display:none;}
 
 @media only screen and (max-width: 767px) {
-.col-md-6.lg-name{display:none!important;}
+.col-md-6.lg-name{display:none;}
 .mob-name{display:inline-block;}
-#body{    background-position: initial;}
+#body{ background-image: url("images/web-img13.jpg"); height: 0px;}
+#webDevelopment {
+ 
+ background-color: none;
+ height: 0px; }
 
 } 
