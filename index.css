@@ -6,6 +6,7 @@
 
 #body{
 	background-image: url("images/web-img11.jpg");
+	background-size: cover;
 	
 	font-family:Lucida Bright;
 	color:#000000;
