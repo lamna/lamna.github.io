@@ -1,15 +1,19 @@
+
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<title>About Me</title>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="icon" type="image/png" href="images/favicon.png" />
-
+<head>
+  
+  <title>My Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" type="text/css" href="index.css">	
 		<link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
 		<link rel="stylesheet" href="http://jqueryui.com/resources/demos/style.css">
 		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+		
+		
+		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 		<script type='text/javascript' src='http://code.jquery.com/jquery-2.1.4.min.js'></script>				
@@ -18,118 +22,255 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">		
 		<script type='text/javascript' src='index.js'></script>
 
-	</head>
-	<body id = "body">
-		<div class="container-fluid">
-			<div class="row" id="nav">
-				<div class="col-md-6 lg-name">
-					<a href="index.html" style="text-decoration:none;color:black;">
-					<h2 class="quotes" style="color:#ffffff;">
-					<!--<img style="width:50px;"src="images/logo.png"/>--> 
-					</a><span style="width:100%;"><span style="font-size:46px;"> L</span>AMNA&nbsp;<span style="font-size:46px;">R</span>AVINDRAN</span></h2>
-					<h2 class="quotes">
-					<!--<img style="width:50px;"src="images/logo.png"/> -->
-					</a><span style="font-size:46px;"> L</span>AMNA&nbsp;<span style="font-size:46px;">R</span>AVINDRAN</h2>
-					<!--<h5 style="padding-left:10%;color:#ffffff;">  WEB UI DESIGNER &nbsp;/&nbsp;DEVELOPER</h5><hr>-->
-					
-				</div>
-				
-				<div class="col-md-6 mob-name">
-					<a href="index.html" style="text-decoration:none;color:black;">
+</head>
 
-					<h3 class="">
-					<img style="width:50px;"src="images/logo.png"/>
-					</a>LAMNA RAVINDRAN</h3>
-					<h5 style="padding-left:10%;color:#ffffff;">  WEB UI DESIGNER &nbsp;/&nbsp;DEVELOPER</h5><hr>
-					
-				</div>
-				<div class="col-md-2"></div>
-				<div class="col-md-4">
-					<ul class="nav navbar-nav">
-						<li><a href="#" id="about" title="About Me">ABOUT ME</a></li>
-						<li><a href="#" id ="projects" title="My Projects">PROJECTS</a></li>					
-						<li><a href="#" id="contact" title="Contact">CONTACT</a></li>					
-					</ul>			
-				</div>	
-			<div class="row">
-				<div class="col-md-3"></div>			
-				<div class="col-md-3"></div>			
-				<div class="col-md-3"></div>			
-				<div class="col-md-3" id="email_phone" style="display:none">
-					<i class="fa fa-envelope-o "></i>  Lemnasachin@gmail.com<br>
-					<i class="fa fa-phone "></i>  (203)546 0269			
-				</div>			
-			</div>				
-			</div>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 
-			<div class="row">
-				<div class="col-md-6" id="aboutme" style="background-color:white;display:none;">
-					<h4 style="text-align:center;font-family:Chiller;font-size:60px;">About Me</h4><hr>
-					<p>	Hello,I am an aspiring Web Designer/Developer with a background in architecture currently employed as a Web Designer/Developer in a private firm in Cupertino since September 2015. 
-					I have around 3 years of work experience. 
-					In my current role, I Design/Develop commercial and corporate Realtor Websites using XML, HTML5, CSS3, JavaScript, JQuery and Bootstrap. 
-					I have experience in designing and developing responsive and interactive websites, which includes creating logos, manipulating images using Photoshop and Illustrator. 
-					I am a quick learner and adept in visualizing and designing layouts and always looking forward to new and challenging assignments.
-					</p>											
-					<br>																								
-				</div>			
-				<div class="col-md-6" id="websites" style="background-color:white;display:none;">
-					<h4 style="text-align:center;font-family:Chiller;font-size:60px;">My Projects</h4><hr>				
-					<div class="col-md-6 add-border">
-						<h3> Personal Projects</h3><hr>
-									
+<nav class="navbar  navbar-fixed-top top-header">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <div class="container" onclick="myFunction(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+      </button>
+      <div class="quotes"><a class="navbar-brand myLogo " href="#myPage"><img  class="logo-img" width='40%;'src="images/logoL.png"/></a></div>
+	   <div class="quotes"><a class="navbar-brand myLogo " href="#myPage"><img  class="logo-img"  width='40%;'src="images/logo.png"/></a></div>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#portfolio">PORTFOLIO</a></li>		
+		<!--<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#portfolio">PORTFOLIO<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#personal">PERSONAL PROJECTS</a></li>
+              <li><a href="#work">WORK PROJECTS</a></li>
+            </ul>
+        </li>-->		
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
-							
-						<a href="http://lamna.github.io/Pink-Purple-Shop/" target="_blank"><h4 style="color:#FF0066"> <img style="width:90%;"src="images/dress.png"/></h4></a><br>	
-						<a href="http://lamna.github.io/Pink-Purple-Shop/" target="_blank"><h4 style="color:#FF0066"> eCommerce Website</h4></a>
-						<h6>Designed and Developed a responsive and interactive eCommerce website as a personal project.</h6>
-						<br>
-						
-							
-						<a href="http://lamna.github.io/Realtor/" target="_blank"><h4 style="color:#cc3300"> <img style="width:90%;"src="images/LamnaSite.png"/></h4></a><br>
-						<a href="http://lamna.github.io/Realtor/" target="_blank"><h4 style="color:#cc3300"> Commercial Website</h4></a>						
-						<h6>A personal project for a commercial website with parallax scrolling and logo designs using Illustrator.</h6>
-						<br>
-						
-						<a href="http://lamna.github.io/Restaurant-Project/" target="_blank"><h4 style="color:#FF9900;"><img style="width:90%;"src="images/spice.png"/></h4></a><br>					
-						<a href="http://lamna.github.io/Restaurant-Project/" target="_blank"><h4 style="color:#FF9900;">Commercial Website</h4></a>	
-						<h6>Academic project for a responsive & interactive website with emphasis on layout optimization, colour theory and typography. </h6>
-						<br>
-					</div>
-					<div class="col-md-6 add-border" >
-						<h3>Work Projects</h3><hr>
-						<a href="http://www.melaniekemp.com/" target="_blank"><h4 style="color:#000000">  <img style="width:90%;"src="images/kemp.png"/></h4></a><br>	
-						<h6>Designed and Developed this responsive website using xml,html5 and css3. Created graphics, including icons and logos using Photoshop and Illustrator .</h6>
-						<br>
-						<a href="http://www.rockcliff.com/kjarvis/" target="_blank"><h4 style="color:#000000">  <img style="width:90%;"src="images/krista.png"/></h4></a><br>	
-						<h6> Developed this video banner website using xml,html5 and css3 in dreamweaver.</h6>
-						<br>
-						<a href="http://www.laurabryanthomes.com/" target="_blank"><h4 style="color:#000000"> <img style="width:90%;"src="images/laura.png"/></h4></a><br>	
-						<h6>Developed this website from scratch to finish including gathering client requirements, creating design documentation, mock-ups, building mark-ups using Xml, html5 , Css3 and image manipulation using Photoshop.</h6>
-						<br>
-						<a href="http://www.seed52.com/" target="_blank"><h4 style="color:#000000"> <img style="width:90%;"src="images/seed52.png"/></h4></a><br>	
-						<h6>Developed logo using illustrator, created mockups and  coded a one page layout for the contacts form using  html5, Css3 and Javascript in dreamweaver.</h6>
-						<br>
-						<a href="http://www.bonafedeteam.com/" target="_blank"><h4 style="color:#000000">  <img style="width:90%;"src="images/Team.png"/></h4></a><br>	
-						<h6>Created this responsive website with exact specifications from the client using html5 and Css3 .</h6>
-						<br>
 
-					</div>					
-				</div>					
-			</div>
-			<div class="row">
-				<div class="col-md-12" id="webDevelopment">
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>																
-				<br>																
-				<br>																																				
-				</div>			
-			</div>			
-		</div>
-	</body>
+
+
+<div class="loader"></div>
+<div class="name text-center">
+<div class="myName">
+<img class="myName"style="width:50%;"src="images/my-name.png"/>
+  <!--<h2>Lamna Ravindran</h2>
+  <span><p>Web Designer | Front-End Developer</p></span>-->
+</div>
+</div>
+
+
+<div><a href="#" id="back-to-top" title="Back to top"></a> </div>
+
+<!-- Container (About Section) -->
+<div id="about" class="container-fluid">
+  <div class="row">    
+
+    <div class="col-sm-1" ></div>
+    <div class="col-sm-8" >
+      <h2 class="headings">About Me</h2><br>
+      <h4 class="about-me">Creative Web Designer/Developer with a background in architecture currently employed in a private firm in Cupertino 
+	  since September 2015. I have around 3 years of work experience. 
+	  In my current role, I Design/Develop commercial and corporate Realtor Websites using XML, HTML5, CSS3, JavaScript, JQuery and Bootstrap. 
+	  Experienced in designing and developing responsive and interactive websites, 
+	  which includes creating logos, manipulating images using Photoshop and Illustrator. 
+	  I am a quick learner and adept in visualizing and designing layouts and always looking forward to new and challenging assignments.</h4><br>
+    </div>
+	
+	<div class="col-sm-3 ">
+      <span class=" slideanim"><img class=" slideanim img-circle img-thumbnail my-pic "src="images/image1.jpg"/></span>
+    </div>
+    
+  </div>
+</div>
+
+<div class="container-fluid bg-grey">
+  <div class="row">
+    <div class="col-sm-4">
+      <span class="slideanim"><img class="slideanim" width='100%'src="images/skills.png"/></span>
+    </div>
+    <div class="col-sm-8" style="padding-right:50px;">
+      <h2 class="headings">Technical Skills</h2><br>
+<div >
+  <div class="progress" style="width:100%;">
+    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" 
+    style="width:95%; background:#ddd;">
+      <p>XML</p>
+    </div>
+  </div>
+  <div class="progress">
+    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"
+     style="width:95%; background:#eee;">
+      <p>HTML5</p>
+    </div>
+  </div>
+  <div class="progress">
+    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:90%;background:#ddd;">
+      <p>CSS3</p>
+    </div>
+  </div>
+  <div class="progress">
+    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:95%;background:#eee;">
+      <p>Bootstrap</p>
+    </div>
+  </div>
+  <div class="progress">
+    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:30%;background:#ddd;">
+      <p>Javascript</p>
+    </div>
+  </div>
+  <div class="progress">
+    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:50%;background:#eee;">
+      <p>Jquery</p>
+    </div>
+  </div>
+  <div class="progress">
+    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:90%;background:#ddd;">
+      <p>Photoshop</p>
+    </div>
+  </div>
+  <div class="progress">
+    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:90%;background:#eee;">
+      <p>Dreamweaver</p>
+    </div>
+  </div>
+  <div class="progress">
+    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:50%;background:#ddd;">
+      <p>Illustrator</p>
+    </div>
+  </div>
+</div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Container (Portfolio Section) -->
+<div id="portfolio" class="container text-center">
+  <h2 class="headings">Portfolio</h2><br>
+  <h5 id="personal" class="title-projects">PERSONAL PROJECTS</h5>
+  <div class="row text-center slideanim">
+    <div class="col-sm-4 ">
+      <div class="thumbnail">
+        <a style="text-decoration:none;"href="http://lamna.github.io/Pink-Purple-Shop/" target="_blank"><img src="images/dress.png"  width="200" height="100">
+        <p><strong>eCommerce Website</strong></p>
+        <p class="projects-p">Designed and Developed a responsive and interactive eCommerce website as a personal project.</p></a>
+      </div>
+    </div>
+    <div class="col-sm-4 ">
+      <div class="thumbnail">
+        <a style="text-decoration:none;" href="http://lamna.github.io/Realtor/" target="_blank"><img src="images/LamnaSite.png" width="200" height="100">
+        <p><strong>Commercial Website</strong></p>
+        <p class="projects-p">A personal project for a commercial website with parallax scrolling and logo designs using Illustrator.</p></a>
+      </div>
+    </div>
+    <div class="col-sm-4 ">
+      <div class="thumbnail">
+        <a style="text-decoration:none;"href="http://lamna.github.io/Restaurant-Project/" target="_blank"><img src="images/spice.png" width="200" height="100">
+        <p><strong>Commercial Website</strong></p>
+        <p class="projects-p">Academic project for a responsive & interactive website with emphasis on layout optimization, colour theory and typography. </p></a>
+      </div>
+    </div>
+  </div>
+  </div>
+  
+<!-- Container (Portfolio2 Section) -->
+<div id="portfolio" class="container text-center ">
+  <h5 id="work" class="title-projects">WORK PROJECTS</h5>
+  <div class="row text-center slideanim">
+    <div class="col-sm-4 ">
+      <div class="thumbnail">
+        <a style="text-decoration:none;" href="http://www.melaniekemp.com/" target="_blank"><img src="images/kemp.png" width="400" height="300">
+        <p><strong>Commercial Website</strong></p>
+        <p class="projects-p">Designed and Developed this site using xml,html5 and css3. Created graphics, including icons and logos using Photoshop and Illustrator .</p></a>
+      </div>
+    </div>
+    <div class="col-sm-4 ">
+      <div class="thumbnail">
+        <a style="text-decoration:none;" href="http://www.rockcliff.com/kjarvis/" target="_blank"><img src="images/krista.png" width="400" height="300">
+        <p><strong>Commercial Website</strong></p>
+        <p class="projects-p">Developed this video banner website using xml, html5, css3 and jquery in dreamweaver.</p></a>
+      </div>
+    </div>
+    <div class="col-sm-4 ">
+      <div class="thumbnail">
+        <a style="text-decoration:none;" href="http://listingproducer.com/" target="_blank"><img src="images/Lp-site.jpg" width="400" height="300">
+        <p><strong>Marketing Website</strong></p>
+        <p class="projects-p">Redesigned this marketing static website to a responsive site using html5 and css3. </p></a>
+      </div>
+    </div>
+</div>
+</div><br>
+  
+<!-- Container (Portfolio3 Section) -->
+<div id="portfolio" class="container text-center ">
+  <div class="row text-center slideanim">
+    <div class="col-sm-4 ">
+      <div class="thumbnail">
+        <a style="text-decoration:none;" href="http://www.seed52.com/" target="_blank"><img src="images/seed52.png"  width="400" height="300">
+        <p><strong>Marketing Website</strong></p>
+        <p class="projects-p">Developed logo using illustrator, created mockups and  coded a one page layout for the contacts form using  html5, Css3 and Javascript in dreamweaver.</p></a>
+      </div>
+    </div>
+    <div class="col-sm-4 ">
+      <div class="thumbnail">
+        <a style="text-decoration:none;" href="http://www.bonafedeteam.com/" target="_blank"><img src="images/Team.png" width="400" height="300">
+        <p><strong>Commercial Website</strong></p>
+        <p class="projects-p">Created this responsive website with exact specifications from the client using html5 and Css3 .</p></a>
+      </div>
+    </div>
+    <div class="col-sm-4 ">
+      <div class="thumbnail">
+        <a style="text-decoration:none;" href="http://www.laurabryanthomes.com/" target="_blank"><img src="images/laura.png" width="400" height="300">
+        <p><strong>Commercial Website</strong></p>
+        <p class="projects-p">Developed this website from scratch to finish including gathering client requirements, 
+		creating design documentation, mock-ups, building mark-ups using Xml, html5 , Css3 and image manipulation using Photoshop.</p></a>
+      </div>
+    </div>
+  </div></div>
+  
+  
+  <!-- Container (Contact Section) -->
+<div id="contact" class="container-fluid bg-grey">
+
+
+  <h2 class=" text-center headings">CONTACT</h2>
+  <div class="row">
+    <div class="col-sm-12" style="text-align:center;">
+      <p><span class="glyphicon glyphicon-map-marker" style=" font-size: 20px;margin-bottom: 20px;color: #fd4b4e;"></span> Fremont, CA</p>
+      <p><span class="glyphicon glyphicon-phone" style=" font-size: 20px;margin-bottom: 20px;color: #fd4b4e;"></span> (203) 546 0269</p>
+      <p><span class="glyphicon glyphicon-envelope" style=" font-size: 20px;margin-bottom: 20px;color: #fd4b4e;"></span> Lemnasachin@gmail.com</p>
+    </div>
+  
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
 </html>
+
+
+
+
+ 
