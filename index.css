@@ -220,21 +220,21 @@ body {
       visibility: visible;
   }
  @keyframes slide1 {
-    0% {opacity: 0;-webkit-transform: translateX(70%);}
+    0% {opacity: 0;-webkit-transform: translateX(100%);}
     100% {opacity: 1;-webkit-transform: translateX(0%);}
   }
   @-webkit-keyframes slide1 {
-    0% {opacity: 0;-webkit-transform: translateX(70%);}
+    0% {opacity: 0;-webkit-transform: translateX(100%);}
     100% {opacity: 1;-webkit-transform: translateX(0%);}
   }
   
   @-moz-keyframes slide1 {
-    0% {opacity: 0;-webkit-transform: translateX(70%);}
+    0% {opacity: 0;-webkit-transform: translateX(100%);}
     100% {opacity: 1;-webkit-transform: translateX(0%);}
   }
   
   @-o-keyframes slide1 {
-    0% {opacity: 0;-webkit-transform: translateX(70%);}
+    0% {opacity: 0;-webkit-transform: translateX(100%);}
     100% {opacity: 1;-webkit-transform: translateX(0%);}
   }
   
