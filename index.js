@@ -40,7 +40,7 @@ function myFunction(x) {
 
 
 $(window).load(function() {
-	$(".loader").fadeOut(5000);
+	$(".loader").fadeOut(1000);
 	
 });
 
