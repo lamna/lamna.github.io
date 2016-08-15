@@ -1,4 +1,8 @@
 
+function myFunction(x) {
+    x.classList.toggle("change");
+}
+
 $(document).ready(function(){
   // Add smooth scrolling to all links in navbar + footer link
   $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
@@ -34,9 +38,7 @@ $(document).ready(function(){
   });
 
 
-function myFunction(x) {
-    x.classList.toggle("change");
-}
+
 
 
 $(window).load(function() {
