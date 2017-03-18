@@ -13,35 +13,69 @@ body {
 	-moz-transition:all .2s linear; 
 	-webkit-transition:all .2s linear;
   }
+  
+
 .headings{
     margin-bottom: 8px;
-    font-weight: 500;
-    font-family: Gotham SSm,sans-serif;
+    font-weight: 800;
+        font-family: 'Francois One', sans-serif;
     font-size: 24px;
     letter-spacing: 8px;
     text-transform: uppercase;
     color: #333;}
+/*	
+	#personal:before {
+    display: inline-block;
+    height: 2px;
+    content: " ";
+    text-shadow: none;
+    background-color:  #fd4b4e;
+    width: 50px;
+}
+
+
+
+#personal:after {
+    display: inline-block;
+    
+    height: 2px;
+    content: " ";
+    text-shadow: none;
+    background-color:  #fd4b4e;
+    width: 50px;
+}
+*/
 	
 	P{
 
-    font-family: Gotham SSm,sans-serif;
+  font-family: 'Arapey', serif;
     font-size: 13px;
     line-height: 1.75;
-    color: #999;
+    color: #333;
 	
 }
   h4 {
-    font-family: Gotham SSm,sans-serif;
+   font-family: 'Arapey', serif;
     font-size: 18px;
     line-height: 1.75;
-    color: #999;
+    color: #333;
   }
-  .about-me{    
-    font-family: Gotham SSm,sans-serif;
-	font-weight: 500;
+  
+    h3 {
+   font-family: 'Arapey', serif !important;
     font-size: 16px;
+    line-height: 1.75;
+    color: #333;
+  }
+  
+  .nav>li>a{font-family: 'Arapey', serif;}
+  .navbar-nav>li>a{text-align:center;}
+  .about-me{    
+    font-family: 'Arapey', serif;
+	font-weight: 500;
+    font-size: 18px;
     line-height: 1.8;
-    color: #999;
+    color: #333;
 	text-align:justify;
 	letter-spacing: 2px;
 	}
@@ -89,8 +123,8 @@ body {
   
   .thumbnail:hover{box-shadow: 5px 0px 40px rgba(0,0,0, .2);}
   
-.projects-p{text-align:justify;padding:0px 5px 0 5px;}
-.title-projects{letter-spacing:10px;padding-bottom:20px;}
+.projects-p{font-size:16px;}
+.title-projects{letter-spacing:10px;padding-bottom:20px;font-family: 'Arapey', serif;font-size: 18px;}
 
   .top-header {
       margin-bottom: 0;
@@ -120,6 +154,7 @@ body {
   .glyphicon .glyphicon-map-marker{
       font-size: 20px;margin-bottom: 20px;color: #fd4b4e;
   }
+  .glyphicon{font-size:15px !important;padding-right:10px !important;}
   
   .my-pic{width:100%;}
   
@@ -151,9 +186,23 @@ body {
   .quotes {display: none;}
   
   
-  .progress-bar{text-align:left !important;}
+  .progress-bar{text-align:left !important;     border-radius: 4px;}
+  .progress{height: 8px !important;margin-bottom: 30px;}
   
-  .thumbnail{height: 300px !important;}
+  .thumbnail{
+	  height: 400px !important;
+	  border-radius: 0px !important;
+	  padding:20px !important;}
+  
+  .line{   content: '';
+    display: block;
+    margin-top: 10px;
+    width: 40px;
+    border-top: 2px solid #fd4b4e;}
+	
+	.contact-address p{font-size:22px;}
+	.contact-address{text-align:left !important;}
+	.sub-head{text-transform:uppercase;font-size:16px;}
   
    
    /*****  spinning loader******/
@@ -271,7 +320,247 @@ body {
   }
   
   
+ 
+
+
+/*-------------------hover     --------------*/
+
+.hover03 {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.hover03 img {
+    max-width: 100%;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+
+.hover03 :hover img {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+	-webkit-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+	 background-size: cover;
+	
+}
+
+
+.view-more {
+    position: absolute;
+    width:100%;
+    height: 100%;
+    padding: 50px;
+    text-align: center;
+    background: rgba(0,0,0,0.70);
+    color: #ffffff;
+    letter-spacing: 2;
+    font-size: 18px;
+    opacity: 1;
+    z-index: 3;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    cursor: pointer;
+}
+
+.hover03 :hover  .view-more{
+     visibility:visible;
+     transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
   
+} 
+/*-----------------------*/
+
+.work-project{background:#eee;}
+.personal-project{background:#eee;}
+
+.nav-anim{
+	-webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+	-webkit-animation-duration: 2s;
+    animation-duration: 2s;
+	-webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+	
+	
+}
+
+.project-anim{
+	-webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+	-webkit-animation-duration: 2s;
+    animation-duration: 2s;
+	-webkit-animation-delay: .5s;
+    animation-delay: .5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+		
+}
+
+ .separator {
+    height: 1px;
+    width: 36px;
+    margin: 7px 0 7px 20px;
+    clear: both;
+    background-color: #20b2aa;
+	text-align:center;
+}
+/*--------------------- */
+
+
+.overlay {
+  position: absolute;
+  bottom: 0%;
+  left: 0;
+  right: 0;
+  background-color:#fd4b4e;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.container1:hover .overlay {
+ 
+  height: 30%;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+/*--------------------- */
+
+
+/* Style the Image Used to Trigger the Modal */
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption { 
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #ffffff !important;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+	opacity:.9 !important;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+.animated {
+    -webkit-animation-duration: 2s !important;
+    animation-duration: 2s !important;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+/****** carousel*****/
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+  
+  .carousel-control{color:#fd4b4e !important;}
+  .carousel-control.left{background:#ffffff !important;}
+  .carousel-control.right{background:#ffffff !important;}
+  .carousel-indicators li{display:none !important; }
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+
+
+ 
   @media screen and (max-width: 768px) {
     .col-sm-4 {
       text-align: center;
