@@ -137,6 +137,14 @@ body {
       border-radius: 0;
      
   }
+  
+  .navbar-brand{
+	  
+	height: 90px !important;
+    padding: 2px !important;
+  }  
+  
+  
   .top-header li a, .top-header.navbar-brand {
       color: #fff !important;
   }
@@ -256,8 +264,12 @@ body {
 
 /*****  shrinking header ******/
    
-	.shrinkLogo{width:60%;} 
-	   
+	.shrinkLogo{width:60%; transition:1s; -webkit-transition:1s; moz-transition:1s; o-transition:1s;} 
+	.shrinkLogo1{height:50px !important; transition:1s; -webkit-transition:1s; moz-transition:1s; o-transition:1s;}
+	.shrinkLogo2{padding-top:0px !important; transition:1s; -webkit-transition:1s; moz-transition:1s; o-transition:1s;}
+	ul.nav.navbar-nav.navbar-right {
+    padding-top: 20px;}
+
    
 /***** image slide ******/ 
 .myName{visibility:hidden;}
@@ -551,6 +563,11 @@ body {
   .carousel-control.left{background:#ffffff !important;}
   .carousel-control.right{background:#ffffff !important;}
   .carousel-indicators li{display:none !important; }
+  
+  
+  
+
+
 
 /* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 700px){

@@ -67,10 +67,20 @@ if ($('#back-to-top').length) {
 $(document).on("scroll", function(){
 	if
      ($(document).scrollTop() > 100){
-	  $(".myLogo").addClass("shrinkLogo");		
+	  $(".myLogo").addClass("shrinkLogo");
+	  $(".navbar-brand").addClass("shrinkLogo1");
+	  $("ul.nav.navbar-nav.navbar-right ").addClass("shrinkLogo2");
+	  
+	  
+	  
 	}
 	else{
-		$(".myLogo").removeClass("shrinkLogo");}
+		$(".myLogo").removeClass("shrinkLogo");
+		$(".navbar-brand").removeClass("shrinkLogo1");
+		$("ul.nav.navbar-nav.navbar-right ").removeClass("shrinkLogo2");
+	
+		
+		}
 });
 
 	
