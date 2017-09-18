@@ -49,7 +49,7 @@ body {
 	P{
 
   font-family: 'Arapey', serif;
-    font-size: 13px;
+    font-size: 15px;
     line-height: 1.75;
     color: #333;
 	
@@ -73,7 +73,7 @@ body {
   .about-me{    
     font-family: 'Arapey', serif;
 	font-weight: 500;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.8;
     color: #333;
 	text-align:justify;
@@ -88,7 +88,7 @@ body {
 	  background-position: top center;
 	  background-size: cover;
       color: #fff;
-      padding: 100px 25px;
+      padding: 200px 25px;
       
   }
   
@@ -114,6 +114,7 @@ body {
       padding: 0 0 15px 0;
       border: none;
       border-radius: 0;
+	  margin:15px;
   }
   .thumbnail img {
       width: 100%;
@@ -124,7 +125,7 @@ body {
   .thumbnail:hover{box-shadow: 5px 0px 40px rgba(0,0,0, .2);}
   
 .projects-p{font-size:16px;}
-.title-projects{letter-spacing:10px;padding-bottom:20px;font-family: 'Arapey', serif;font-size: 18px;}
+.title-projects{letter-spacing:10px;padding-bottom:20px; serif;font-size: 18px;}
 
   .top-header {
       margin-bottom: 0;
@@ -198,7 +199,7 @@ body {
   .progress{height: 8px !important;margin-bottom: 30px;}
   
   .thumbnail{
-	  height: 400px !important;
+	  height: 420px !important;
 	  border-radius: 0px !important;
 	  padding:20px !important;}
   
@@ -210,7 +211,7 @@ body {
 	
 	.contact-address p{font-size:22px;}
 	.contact-address{text-align:left !important;}
-	.sub-head{text-transform:uppercase;font-size:16px;}
+	.sub-head{text-transform:uppercase;font-size:17px;}
   
    
    /*****  spinning loader******/
@@ -592,7 +593,7 @@ body {
     .logo {
         font-size: 150px;
     }
-	.logo-img{width:20%;}
+	.logo-img{margin:0 auto;}
   }
   
     @media screen and (max-width: 767px) {
