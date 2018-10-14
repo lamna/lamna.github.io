@@ -1,4 +1,10 @@
 
+
+* {
+    box-sizing: border-box;
+}
+
+
 body {
     font-family: Gotham SSm,sans-serif !important;
     font-weight: 300;
@@ -19,7 +25,7 @@ body {
     margin-bottom: 8px;
     font-weight: 800;
         font-family: 'Francois One', sans-serif;
-    font-size: 24px;
+    font-size: 30px;
     letter-spacing: 8px;
     text-transform: uppercase;
     color: #333;}
@@ -125,7 +131,7 @@ body {
   .thumbnail:hover{box-shadow: 5px 0px 40px rgba(0,0,0, .2);}
   
 .projects-p{font-size:16px;}
-.title-projects{letter-spacing:10px;padding-bottom:20px; serif;font-size: 18px;}
+.title-projects{letter-spacing:6px;padding-bottom:20px; font-size: 24px;}
 
   .top-header {
       margin-bottom: 0;
@@ -211,7 +217,7 @@ body {
 	
 	.contact-address p{font-size:22px;}
 	.contact-address{text-align:left !important;}
-	.sub-head{text-transform:uppercase;font-size:17px;}
+	.sub-head{text-transform:uppercase;font-size:20px;}
   
    
    /*****  spinning loader******/
@@ -265,7 +271,7 @@ body {
 
 /*****  shrinking header ******/
    
-	.shrinkLogo{width:60%; transition:1s; -webkit-transition:1s; moz-transition:1s; o-transition:1s;} 
+	.shrinkLogo{ transition:1s; -webkit-transition:1s; moz-transition:1s; o-transition:1s;} 
 	.shrinkLogo1{height:50px !important; transition:1s; -webkit-transition:1s; moz-transition:1s; o-transition:1s;}
 	.shrinkLogo2{padding-top:0px !important; transition:1s; -webkit-transition:1s; moz-transition:1s; o-transition:1s;}
 	ul.nav.navbar-nav.navbar-right {
@@ -566,9 +572,57 @@ body {
   .carousel-indicators li{display:none !important; }
   
   
+/*.container Work Projects  */
+.containerWork{
+  position: relative;
+  width: 50%;
+}
+
+.WorkImages {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlayWork {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color:#ffffffd4;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.containerWork:hover .overlayWork {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.textWork {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+	  width:100%;
+}
   
-
-
+ /*.container Work Projects  Ends */ 
+  
+  
 
 /* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 700px){
