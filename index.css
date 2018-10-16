@@ -131,7 +131,7 @@ body {
   .thumbnail:hover{box-shadow: 5px 0px 40px rgba(0,0,0, .2);}
   
 .projects-p{font-size:16px;}
-.title-projects{letter-spacing:6px;padding-bottom:20px; font-size: 24px;}
+.title-projects{letter-spacing:1px;padding-bottom:20px; font-size: 30px; font-weight:600;}
 
   .top-header {
       margin-bottom: 0;
@@ -601,9 +601,9 @@ body {
 }
 
 .containerWork:hover .overlayWork {
-  -webkit-transform: scale(1);
-  -ms-transform: scale(1);
-  transform: scale(1);
+  -webkit-transform: scale(.8);
+  -ms-transform: scale(.8);
+  transform: scale(.8);
 }
 
 .textWork {
